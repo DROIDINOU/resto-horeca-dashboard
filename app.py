@@ -4,7 +4,7 @@ import streamlit as st
 from pathlib import Path
 
 
-st.set_page_config(page_title="Détection HORECA Moniteur", layout="wide")
+st.set_page_config(page_title="Détection des Sociétés HORECA", layout="wide")
 BASE_DIR = Path(__file__).resolve().parent
 JSON_PATH = BASE_DIR / "public" / "all_leads.json"
 
