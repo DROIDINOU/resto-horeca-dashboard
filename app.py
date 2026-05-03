@@ -136,6 +136,12 @@ for _, row in filtered.iterrows():
         with c1:
             st.write("**Nom :**", row.get("name"))
             st.write("**TVA :**", row.get("vat"))
+            address = row.get("bce_registered_office_address")
+
+            st.write(
+                "**Adresse du siège :**",
+                address if address else "-"
+            )
             st.write("**Classement :**", row.get("horeca_status_label", row.get("horeca_status")))
             st.write("**Catégorie :**", row.get("horeca_category"))
             bce_url = row.get("bce_enterprise_url")
