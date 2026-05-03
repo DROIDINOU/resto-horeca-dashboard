@@ -177,11 +177,21 @@ for _, row in filtered.iterrows():
             objet = row.get("objet_social", "")
             if objet:
                 st.write("**Objet social :**")
-                st.text_area(
-                    "Aperçu",
-                    objet,
-                    height=180,
-                    key=f"text_{row.get('file')}"
+                st.markdown(
+                    f"""
+                    <div style="
+                        border: 2px solid #3b82f6;
+                        border-radius: 8px;
+                        padding: 12px;
+                        background-color: #f9fafb;
+                        font-size: 14px;
+                        line-height: 1.5;
+                        white-space: pre-wrap;
+                    ">
+                        {objet}
+                    </div>
+                    """,
+                    unsafe_allow_html=True
                 )
             else:
                 st.info("Objet social non disponible.")
