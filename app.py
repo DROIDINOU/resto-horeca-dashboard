@@ -29,7 +29,7 @@ st.markdown("""
     background: linear-gradient(90deg, #1f2937, #111827);
     color:white;
 ">
-    <h1 style="margin:0;">🍽️ Détection HORECA</h1>
+    <h1 style="margin:0;">🍽️ Détection des sociétés HORECA</h1>
     <p style="margin:0; font-size:16px; opacity:0.8;">
         Analyse automatique des constitutions du Moniteur belge
     </p>
