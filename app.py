@@ -47,40 +47,44 @@ with st.expander("ℹ️ Comprendre le classement des leads", expanded=False):
 | **HORECA fort — nom** | Le nom de la société contient plusieurs signaux HORECA. |
 | **Non prioritaire** | Pas de signal HORECA fort ou activité principale non HORECA. |
     """)
-with st.expander("🚀 Pourquoi ces leads sont précieux", expanded=False):
+with st.expander("Comprendre l’intérêt de ces leads", expanded=False):
     st.markdown("""
-### ⏱️ Une avance stratégique sur la BCE
+### Une détection en amont de la BCE
 
-Les sociétés détectées ici proviennent directement des **annexes du Moniteur belge**.
+Les sociétés présentées ici sont identifiées à partir des publications du **Moniteur belge**, qui constitue la source officielle lors de la constitution d’une entreprise.
 
-👉 Cela permet d’identifier de nouvelles activités **plusieurs jours avant leur apparition dans la BCE**.
-
----
-
-### 💡 Concrètement
-
-- 📄 Publication au Moniteur = création juridique officielle  
-- 🕐 Mise à jour BCE = souvent **plus tardive**  
-- 🔎 Résultat = **fenêtre d’opportunité**
+Ces informations apparaissent généralement **avant leur mise à jour dans la Banque-Carrefour des Entreprises (BCE)**.
 
 ---
 
-### 🎯 Pourquoi c’est intéressant
+### Un décalage exploitable
 
-- Prospecter avant la concurrence  
-- Contacter les sociétés dès leur lancement  
-- Identifier rapidement les nouvelles activités HORECA  
+Dans la pratique :
+
+- La constitution est publiée au Moniteur belge  
+- La mise à jour dans la BCE intervient avec un certain délai  
+- Ce décalage crée une fenêtre d’anticipation  
 
 ---
 
-### 📊 Indicateur clé
+### Intérêt opérationnel
 
-Le délai affiché (*"délai confirmation"*) montre le nombre de jours entre :
+Cette avance permet :
 
-- la détection via le Moniteur  
-- la confirmation officielle dans la BCE  
+- d’identifier rapidement les nouvelles sociétés actives dans le secteur HORECA  
+- d’initier une prise de contact dès le lancement de l’activité  
+- de se positionner avant l’apparition dans les bases de données classiques  
 
-👉 Plus ce délai est élevé, plus ton avantage est important.
+---
+
+### Indicateur de délai
+
+Le champ *« délai de confirmation »* correspond au nombre de jours entre :
+
+- la détection via le Moniteur belge  
+- la confirmation de l’activité dans la BCE  
+
+Ce délai reflète concrètement l’avance disponible pour la prospection.
 """)
 selected_date = st.selectbox(
     "Date de publication",
