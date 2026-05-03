@@ -2,14 +2,17 @@ import json
 import pandas as pd
 import streamlit as st
 from pathlib import Path
+from openai import OpenAI
 
 
 st.set_page_config(page_title="Détection Constitution de Sociétés HORECA", layout="wide")
 BASE_DIR = Path(__file__).resolve().parent
 JSON_PATH = BASE_DIR / "public" / "all_leads.json"
 
+
 @st.cache_data
 def load_data():
+
     with open(JSON_PATH, encoding="utf-8") as f:
         data = json.load(f)
     return pd.DataFrame(data)
@@ -172,7 +175,12 @@ for _, row in filtered.iterrows():
             )
 
             st.write("**Codes NACE :**", row.get("bce_nace_codes"))
+            if st.button("Analyser ce lead avec IA", key=f"ai_{row.get('file')}"):
+                with st.spinner("Analyse IA en cours..."):
+                    ai_result = analyse_lead_ai(row)
 
+                st.markdown("### Analyse IA")
+                st.markdown(ai_result)
         with c2:
             objet = row.get("objet_social", "")
             if objet:
