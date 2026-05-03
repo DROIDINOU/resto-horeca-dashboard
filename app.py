@@ -47,6 +47,41 @@ with st.expander("ℹ️ Comprendre le classement des leads", expanded=False):
 | **HORECA fort — nom** | Le nom de la société contient plusieurs signaux HORECA. |
 | **Non prioritaire** | Pas de signal HORECA fort ou activité principale non HORECA. |
     """)
+with st.expander("🚀 Pourquoi ces leads sont précieux", expanded=False):
+    st.markdown("""
+### ⏱️ Une avance stratégique sur la BCE
+
+Les sociétés détectées ici proviennent directement des **annexes du Moniteur belge**.
+
+👉 Cela permet d’identifier de nouvelles activités **plusieurs jours avant leur apparition dans la BCE**.
+
+---
+
+### 💡 Concrètement
+
+- 📄 Publication au Moniteur = création juridique officielle  
+- 🕐 Mise à jour BCE = souvent **plus tardive**  
+- 🔎 Résultat = **fenêtre d’opportunité**
+
+---
+
+### 🎯 Pourquoi c’est intéressant
+
+- Prospecter avant la concurrence  
+- Contacter les sociétés dès leur lancement  
+- Identifier rapidement les nouvelles activités HORECA  
+
+---
+
+### 📊 Indicateur clé
+
+Le délai affiché (*"délai confirmation"*) montre le nombre de jours entre :
+
+- la détection via le Moniteur  
+- la confirmation officielle dans la BCE  
+
+👉 Plus ce délai est élevé, plus ton avantage est important.
+""")
 selected_date = st.selectbox(
     "Date de publication",
     available_dates,
