@@ -47,7 +47,7 @@ with st.expander("ℹ️ Comprendre le classement des leads", expanded=False):
 | **HORECA fort — nom** | Le nom de la société contient plusieurs signaux HORECA. |
 | **Non prioritaire** | Pas de signal HORECA fort ou activité principale non HORECA. |
     """)
-with st.expander("ℹ️Comprendre l’intérêt de ces leads", expanded=False):
+with st.expander("ℹ️ Comprendre l’intérêt de ces leads", expanded=False):
     st.markdown("""
 ### Une détection en amont de la BCE
 
