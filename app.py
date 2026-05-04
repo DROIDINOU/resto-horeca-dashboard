@@ -3,11 +3,9 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 import html
-from dotenv import load_dotenv
 import os
 from urllib.parse import quote_plus
 
-load_dotenv()
 
 st.set_page_config(page_title="Détection Constitution de Sociétés HORECA", layout="wide")
 
