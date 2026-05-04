@@ -4,6 +4,7 @@ import streamlit as st
 from pathlib import Path
 # from openai import OpenAI
 from urllib.parse import quote_plus
+import html
 
 
 
@@ -113,7 +114,7 @@ col5.metric(
 )
 view = st.radio(
     "Vue rapide",
-    ["Confirmés BCE", "Pending BCE", "Rejetés BCE", "Tous"],
+    ["Confirmés BCE", "Pending BCE", "Rejetés BCE"],
     horizontal=True
 )
 
@@ -204,7 +205,7 @@ for _, row in filtered.iterrows():
                         line-height: 1.5;
                         white-space: pre-wrap;
                     ">
-                        {objet}
+                        {html.escape(str(objet))}
                     </div>
                     """,
                     unsafe_allow_html=True
