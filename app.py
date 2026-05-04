@@ -139,6 +139,8 @@ for _, row in filtered.iterrows():
             st.write("**Nom :**", row.get("name"))
             st.write("**TVA :**", row.get("vat"))
             address = row.get("bce_registered_office_address")
+            st.write("**Adresse du siège :**", address if address else "-")
+
             if address:
                 query = quote_plus(str(address))
 
