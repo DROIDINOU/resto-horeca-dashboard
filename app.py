@@ -3,6 +3,8 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 # from openai import OpenAI
+from urllib.parse import quote_plus
+
 
 
 st.set_page_config(page_title="Détection Constitution de Sociétés HORECA", layout="wide")
@@ -137,11 +139,15 @@ for _, row in filtered.iterrows():
             st.write("**Nom :**", row.get("name"))
             st.write("**TVA :**", row.get("vat"))
             address = row.get("bce_registered_office_address")
+            if address:
+                query = quote_plus(str(address))
 
-            st.write(
-                "**Adresse du siège :**",
-                address if address else "-"
-            )
+                st.markdown(
+                    f"""
+                     [Google Maps](https://www.google.com/maps/search/?api=1&query={query})  
+                     [OpenStreetMap](https://www.openstreetmap.org/search?query={query})
+                    """
+                )
             st.write("**Classement :**", row.get("horeca_status_label", row.get("horeca_status")))
             st.write("**Catégorie :**", row.get("horeca_category"))
             bce_url = row.get("bce_enterprise_url")
