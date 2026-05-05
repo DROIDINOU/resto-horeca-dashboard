@@ -13,11 +13,27 @@ BASE_DIR = Path(__file__).resolve().parent
 JSON_PATH = BASE_DIR / "public" / "all_leads.json"
 
 
+def get_file_mtime(path):
+    return Path(path).stat().st_mtime
+
+
 @st.cache_data
-def load_data():
-    with open(JSON_PATH, encoding="utf-8") as f:
+def load_data(path, mtime):
+    with open(path, encoding="utf-8") as f:
         data = json.load(f)
     return pd.DataFrame(data)
+
+
+def get_file_mtime(path):
+    return Path(path).stat().st_mtime
+
+
+@st.cache_data
+def load_data(path, mtime):
+    with open(path, encoding="utf-8") as f:
+        data = json.load(f)
+    return pd.DataFrame(data)
+
 
 def display_value(value):
     if pd.isna(value) or str(value).lower() == "nan" or str(value).strip() == "":
@@ -25,7 +41,8 @@ def display_value(value):
     return value
 
 
-df = load_data()
+mtime = get_file_mtime(JSON_PATH)
+df = load_data(JSON_PATH, mtime)
 
 df["publication_date"] = pd.to_datetime(df["publication_date"], errors="coerce")
 df["moniteur_run_date"] = pd.to_datetime(df.get("moniteur_run_date"), errors="coerce")
