@@ -277,8 +277,7 @@ for _, row in filtered.iterrows():
             objet = row.get("objet_social", "")
 
             if objet:
-                objet_safe = html.escape(str(objet))
-
+                objet_safe = "..." + html.escape(str(objet).strip()) + "..."
                 st.write("**Objet social :**")
                 st.markdown(
                     f"""
