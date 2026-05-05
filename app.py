@@ -201,7 +201,7 @@ st.subheader("Résultats")
 
 for _, row in filtered.iterrows():
 
-    title = f"{row.get('name')} — {row.get('vat')} — {row.get('bce_status')}"
+    title = f"{row.get('name')} — {row.get('vat')}"
 
     with st.expander(title):
         c1, c2 = st.columns([1, 2])
