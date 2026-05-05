@@ -52,7 +52,7 @@ st.markdown("""
     <h1 style="margin:0;">🍽️ Détection des sociétés HORECA</h1>
     <p style="margin:10px 0 0 0; font-size:16px; opacity:0.8;">
         Analyse sur base des annexes du Moniteur Belge<br>
-        Confirmation ultérieure via la BCE
+        Contrôle ultérieur via la BCE
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -86,8 +86,7 @@ Dans la pratique :
 
 - La constitution est publiée au Moniteur belge
 - La mise à jour dans la BCE intervient avec un certain délai
-- Ce décalage crée une fenêtre d’anticipation
-
+- **Ce décalage crée une fenêtre d’anticipation**
 ---
 
 ### Intérêt opérationnel
@@ -130,7 +129,7 @@ col2.metric(
 )
 
 col3.metric(
-    "BCE pending",
+    "Leads Moniteur",
     len(df[df["has_vat"] & df["bce_status"].str.contains("pending", na=False)])
 )
 
@@ -162,14 +161,14 @@ col6.metric(
 
 view = st.radio(
     "Vue rapide",
-    ["Confirmés BCE", "Pending BCE", "À valider", "Rejetés BCE"],
+    ["Confirmés BCE", "Leads Moniteur", "À valider", "Rejetés BCE"],
     horizontal=True
 )
 
 if view == "Confirmés BCE":
     df = df[df["bce_status"] == "confirmed_horeca"]
 
-elif view == "Pending BCE":
+elif view == "Leads Moniteur":
     df = df[df["has_vat"] & df["bce_status"].str.contains("pending", na=False)]
     # TRI IMPORTANT
     df["horeca_score"] = pd.to_numeric(df["horeca_score"], errors="coerce").fillna(0)
