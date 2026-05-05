@@ -191,6 +191,10 @@ elif view == "À valider":
 elif view == "Rejetés BCE":
     df = df[df["bce_status"] == "not_horeca"]
 
+    if len(df) == 0:
+        st.info("Aucun lead rejeté par la BCE.")
+        st.stop()
+
 filtered = df.copy()
 
 st.subheader("Résultats")
