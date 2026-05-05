@@ -121,7 +121,7 @@ confirmed_df = df[df["bce_status"] == "confirmed_horeca"]
 avg_days = confirmed_df["days_to_confirmation"].dropna().mean()
 
 col1, col2, col3, col4, col5, col6 = st.columns(6)
-col1.metric("Total", len(df))
+col1.metric("Total constitutions", len(df))
 
 col2.metric(
     "BCE confirmés",
