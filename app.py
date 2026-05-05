@@ -101,7 +101,7 @@ Cette avance permet :
 
 ### Indicateur de délai
 
-Le champ *« délai de confirmation »* correspond au nombre de jours entre :
+Le champ *« délai moyen »* correspond à la moyenne du nombre de jours entre :
 
 - la détection via le Moniteur belge
 - la confirmation de l’activité dans la BCE
@@ -110,7 +110,7 @@ Ce délai reflète concrètement l’avance disponible pour la prospection.
 """)
 
 selected_date = st.selectbox(
-    "Date de publication",
+    "Date de publication Moniteur Belge",
     available_dates,
     index=0
 )
