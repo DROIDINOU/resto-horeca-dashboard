@@ -24,17 +24,6 @@ def load_data(path, mtime):
     return pd.DataFrame(data)
 
 
-def get_file_mtime(path):
-    return Path(path).stat().st_mtime
-
-
-@st.cache_data
-def load_data(path, mtime):
-    with open(path, encoding="utf-8") as f:
-        data = json.load(f)
-    return pd.DataFrame(data)
-
-
 def display_value(value):
     if pd.isna(value) or str(value).lower() == "nan" or str(value).strip() == "":
         return "Non disponible"
@@ -182,6 +171,13 @@ if view == "Confirmés BCE":
 
 elif view == "Pending BCE":
     df = df[df["has_vat"] & df["bce_status"].str.contains("pending", na=False)]
+    # TRI IMPORTANT
+    df["horeca_score"] = pd.to_numeric(df["horeca_score"], errors="coerce").fillna(0)
+
+    df = df.sort_values(
+        by=["horeca_score"],
+        ascending=False
+    )
 
 elif view == "À valider":
     count = len(df[to_validate_mask])
