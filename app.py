@@ -120,8 +120,8 @@ df["has_vat"] = df["vat"].notna() & (df["vat"].astype(str).str.lower() != "nan")
 confirmed_df = df[df["bce_status"] == "confirmed_horeca"]
 avg_days = confirmed_df["days_to_confirmation"].dropna().mean()
 
-col1, col2, col3, col4, col5, col6, col7 = st.columns(7)
-col1.metric("Total", len(df))
+col1, col2, col3, col4, col5, col6 = st.columns(6)
+col1.metric("Total constitutions", len(df))
 
 col2.metric(
     "BCE confirmés",
@@ -129,7 +129,7 @@ col2.metric(
 )
 
 col3.metric(
-    "BCE pending",
+    "Leads Moniteur",
     len(df[df["has_vat"] & df["bce_status"].str.contains("pending", na=False)])
 )
 
@@ -150,31 +150,33 @@ col4.metric(
 )
 
 col5.metric(
-    "Validés manuellement",
-    len(df[df["is_manual_validated"]])
-)
-
-col6.metric(
     "BCE rejetés",
     len(df[df["bce_status"] == "not_horeca"])
 )
 
-col7.metric(
+col6.metric(
     "Délai moyen",
     "-" if pd.isna(avg_days) else f"{avg_days:.1f} j"
 )
 
 view = st.radio(
     "Vue rapide",
-    ["Confirmés BCE", "Pending BCE", "À valider", "Validés manuellement", "Rejetés BCE"],
+    ["Confirmés BCE", "Leads Moniteur", "À valider", "Rejetés BCE"],
     horizontal=True
 )
 
 if view == "Confirmés BCE":
     df = df[df["bce_status"] == "confirmed_horeca"]
 
-elif view == "Pending BCE":
+elif view == "Leads Moniteur":
     df = df[df["has_vat"] & df["bce_status"].str.contains("pending", na=False)]
+    # TRI IMPORTANT
+    df["horeca_score"] = pd.to_numeric(df["horeca_score"], errors="coerce").fillna(0)
+
+    df = df.sort_values(
+        by=["horeca_score"],
+        ascending=False
+    )
 
 elif view == "À valider":
     count = len(df[to_validate_mask])
@@ -186,11 +188,12 @@ elif view == "À valider":
 
     st.stop()
 
-elif view == "Validés manuellement":
-    df = df[df["is_manual_validated"]]
-
 elif view == "Rejetés BCE":
     df = df[df["bce_status"] == "not_horeca"]
+
+    if len(df) == 0:
+        st.info("Aucun lead rejeté par la BCE.")
+        st.stop()
 
 filtered = df.copy()
 
@@ -198,7 +201,7 @@ st.subheader("Résultats")
 
 for _, row in filtered.iterrows():
 
-    title = f"{row.get('name')} — {row.get('vat')} — {row.get('bce_status')}"
+    title = f"{row.get('name')} — {row.get('vat')}"
 
     with st.expander(title):
         c1, c2 = st.columns([1, 2])
@@ -277,8 +280,7 @@ for _, row in filtered.iterrows():
             objet = row.get("objet_social", "")
 
             if objet:
-                objet_safe = html.escape(str(objet))
-
+                objet_safe = "..." + html.escape(str(objet).strip()) + "..."
                 st.write("**Objet social :**")
                 st.markdown(
                     f"""
