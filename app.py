@@ -7,7 +7,7 @@ from streamlit_folium import st_folium
 
 BASE_DIR = Path(__file__).resolve().parent
 JSON_PATH = BASE_DIR / "public" / "all_leads_geocoded.json"
-REPORTS_DIR = BASE_DIR / "exports_demo"
+REPORTS_DIR = BASE_DIR / "exports"
 
 st.set_page_config(
     page_title="Détection précoce de nouvelles sociétés",
