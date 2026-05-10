@@ -1158,7 +1158,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037204766",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037204766",
-    "bce_registered_office_address": "Vissersstraat 20 8370 Blankenberge"
+    "bce_registered_office_address": "Vissersstraat 20 8370 Blankenberge",
+    "lat": 51.3151206,
+    "lng": 3.1264125,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26326812.pdf",
@@ -1455,7 +1458,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037221988",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037221988",
-    "bce_registered_office_address": "Oscar Verschuerestraat 57 Boîte 31 8790 Waregem"
+    "bce_registered_office_address": "Oscar Verschuerestraat 57 Boîte 31 8790 Waregem",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26326820.pdf",
@@ -1940,7 +1946,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037208528",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037208528",
-    "bce_registered_office_address": "Dijkstraat(WSP) 47 3150 Haacht"
+    "bce_registered_office_address": "Dijkstraat(WSP) 47 3150 Haacht",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26326846.pdf",
@@ -3849,7 +3858,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037230403",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037230403",
-    "bce_registered_office_address": "Breendonkstraat 5 1840 Londerzeel"
+    "bce_registered_office_address": "Breendonkstraat 5 1840 Londerzeel",
+    "lat": 51.0234722,
+    "lng": 4.2967248,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26326980.pdf",
@@ -4147,7 +4159,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037243269",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037243269",
-    "bce_registered_office_address": "Brusselsesteenweg 653 3090 Overijse"
+    "bce_registered_office_address": "Brusselsesteenweg 653 3090 Overijse",
+    "lat": 50.7932954,
+    "lng": 4.4821604,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327003.pdf",
@@ -4970,7 +4985,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037240497",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037240497",
-    "bce_registered_office_address": "Rue des Loups (THIS) 1A 4280 Hannut"
+    "bce_registered_office_address": "Rue des Loups (THIS) 1A 4280 Hannut",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327048.pdf",
@@ -10636,7 +10654,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037285435",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037285435",
-    "bce_registered_office_address": "Chaussée de Louvain 863 1140 Evere"
+    "bce_registered_office_address": "Chaussée de Louvain 863 1140 Evere",
+    "lat": 50.8597193,
+    "lng": 4.4162941,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327071.pdf",
@@ -10985,7 +11006,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037266431",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037266431",
-    "bce_registered_office_address": "Sluizenkaai 77 Boîte 1 8930 Menen"
+    "bce_registered_office_address": "Sluizenkaai 77 Boîte 1 8930 Menen",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327086.pdf",
@@ -11618,7 +11642,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037258711",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037258711",
-    "bce_registered_office_address": "Chaussée de Liège(JB) 460 5100 Namur"
+    "bce_registered_office_address": "Chaussée de Liège(JB) 460 5100 Namur",
+    "lat": 50.4640501,
+    "lng": 4.8990929,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327122.pdf",
@@ -13063,7 +13090,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037277913",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037277913",
-    "bce_registered_office_address": "Avenue Emile Van Ermengem 15 1090 Jette"
+    "bce_registered_office_address": "Avenue Emile Van Ermengem 15 1090 Jette",
+    "lat": 50.8929399,
+    "lng": 4.3252643,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327210.pdf",
@@ -13529,7 +13559,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037259404",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037259404",
-    "bce_registered_office_address": "Rue de Luins 3 4190 Ferrières"
+    "bce_registered_office_address": "Rue de Luins 3 4190 Ferrières",
+    "lat": 50.4026053,
+    "lng": 5.5226529,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327239.pdf",
@@ -15144,7 +15177,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0843064612",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=0843064612",
-    "bce_registered_office_address": "Wijngaardstraat 21 9500 Geraardsbergen"
+    "bce_registered_office_address": "Wijngaardstraat 21 9500 Geraardsbergen",
+    "lat": 50.7732012,
+    "lng": 3.8774543,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327338.pdf",
@@ -15317,7 +15353,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037255543",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037255543",
-    "bce_registered_office_address": "Zandstraat 161 2300 Turnhout"
+    "bce_registered_office_address": "Zandstraat 161 2300 Turnhout",
+    "lat": 51.3196904,
+    "lng": 4.9308465,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327358.pdf",
@@ -15490,7 +15529,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037284346",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037284346",
-    "bce_registered_office_address": "Rue de Jérusalem 93 1030 Schaerbeek"
+    "bce_registered_office_address": "Rue de Jérusalem 93 1030 Schaerbeek",
+    "lat": 50.8646418,
+    "lng": 4.3785402,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327373.pdf",
@@ -16191,7 +16233,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037308991",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037308991",
-    "bce_registered_office_address": "Chaussée de Boondael 327 1050 Ixelles"
+    "bce_registered_office_address": "Chaussée de Boondael 327 1050 Ixelles",
+    "lat": 50.8190344,
+    "lng": 4.3833284,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327403.pdf",
@@ -16316,7 +16361,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037309090",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037309090",
-    "bce_registered_office_address": "Rue de Birmingham 355 Boîte 4 1070 Anderlecht"
+    "bce_registered_office_address": "Rue de Birmingham 355 Boîte 4 1070 Anderlecht",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327414.pdf",
@@ -16465,7 +16513,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037308892",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037308892",
-    "bce_registered_office_address": "Brusselsesteenweg 18 Boîte A 1730 Asse"
+    "bce_registered_office_address": "Brusselsesteenweg 18 Boîte A 1730 Asse",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327422.pdf",
@@ -16548,7 +16599,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037309189",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037309189",
-    "bce_registered_office_address": "Rue Louis Hap 139 1040 Etterbeek"
+    "bce_registered_office_address": "Rue Louis Hap 139 1040 Etterbeek",
+    "lat": 50.8353962,
+    "lng": 4.3896637,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327424.pdf",
@@ -24669,7 +24723,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037340071",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037340071",
-    "bce_registered_office_address": "Avenue Jupiter 91 Boîte 2 1190 Forest"
+    "bce_registered_office_address": "Avenue Jupiter 91 Boîte 2 1190 Forest",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327522.pdf",
@@ -25394,7 +25451,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037343932",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037343932",
-    "bce_registered_office_address": "Steenweg 8 3621 Lanaken"
+    "bce_registered_office_address": "Steenweg 8 3621 Lanaken",
+    "lat": 50.9133124,
+    "lng": 5.6827757,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327556.pdf",
@@ -25526,7 +25586,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037349969",
     "bce_establishment_count": 1,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037349969",
-    "bce_registered_office_address": "Rue de la Papeterie 14 1490 Court-Saint-Etienne"
+    "bce_registered_office_address": "Rue de la Papeterie 14 1490 Court-Saint-Etienne",
+    "lat": 50.6423137,
+    "lng": 4.6015934,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327570.pdf",
@@ -25579,7 +25642,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037330470",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037330470",
-    "bce_registered_office_address": "Rue Turenne 31 6000 Charleroi"
+    "bce_registered_office_address": "Rue Turenne 31 6000 Charleroi",
+    "lat": 50.4119319,
+    "lng": 4.4409751,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327568.pdf",
@@ -26112,7 +26178,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037336608",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037336608",
-    "bce_registered_office_address": "Chaussée d'Alsemberg 849 1180 Uccle"
+    "bce_registered_office_address": "Chaussée d'Alsemberg 849 1180 Uccle",
+    "lat": 50.8007503,
+    "lng": 4.3362828,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327600.pdf",
@@ -26741,7 +26810,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037333638",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037333638",
-    "bce_registered_office_address": "Schaakstraat 107 8310 Brugge"
+    "bce_registered_office_address": "Schaakstraat 107 8310 Brugge",
+    "lat": 51.2108524,
+    "lng": 3.2539617,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327644.pdf",
@@ -28249,7 +28321,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037356701",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037356701",
-    "bce_registered_office_address": "Rue de Forseilles 9 4217 Héron"
+    "bce_registered_office_address": "Rue de Forseilles 9 4217 Héron",
+    "lat": 50.5374131,
+    "lng": 5.0788665,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26327465.pdf",
@@ -32547,7 +32622,10 @@
     "horeca_category": "Lead HORECA fort",
     "is_horeca": true,
     "objet_social": "2: Doel Het doel van de vennootschap is het volgende : Cateringdiensten aanbieden voor particulieren en bedrijven, evenals het verrichten van ondersteunende activiteiten binnen de horeca, zowel zelfstandig als in onderaanneming (freelance). Zij mag alle handeis-, industriële en financiële handelingen verrichten die rechtstreeks of onrechtstreeks verband houden met haar doel en die de ontwikkeling",
-    "bce_registered_office_address": "Bovenstraat 12-9550 Herzele"
+    "bce_registered_office_address": "Bovenstraat 12-9550 Herzele",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26059442.pdf",
@@ -32648,7 +32726,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037661062",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037661062",
-    "bce_registered_office_address": "Tongersesteenweg 135 3730 Bilzen-Hoeselt"
+    "bce_registered_office_address": "Tongersesteenweg 135 3730 Bilzen-Hoeselt",
+    "lat": 50.8313772,
+    "lng": 5.4730726,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26329388.pdf",
@@ -33133,7 +33214,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037688281",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037688281",
-    "bce_registered_office_address": "Hoddeveld 13/A 1930 Zaventem"
+    "bce_registered_office_address": "Hoddeveld 13/A 1930 Zaventem",
+    "lat": 50.8846037,
+    "lng": 4.4801736,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26329422.pdf",
@@ -33162,7 +33246,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037689271",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037689271",
-    "bce_registered_office_address": "Rue des Bouchers 3/1 1000 Bruxelles"
+    "bce_registered_office_address": "Rue des Bouchers 3/1 1000 Bruxelles",
+    "lat": 50.8475407,
+    "lng": 4.3555046,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26329432.pdf",
@@ -33431,7 +33518,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037702040",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037702040",
-    "bce_registered_office_address": "Rue au Vin 6 9600 Ronse"
+    "bce_registered_office_address": "Rue au Vin 6 9600 Ronse",
+    "lat": null,
+    "lng": null,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26329447.pdf",
@@ -35500,7 +35590,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037691647",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037691647",
-    "bce_registered_office_address": "Place de Maisières 6 7020 Mons"
+    "bce_registered_office_address": "Place de Maisières 6 7020 Mons",
+    "lat": 50.487882,
+    "lng": 3.96546,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26329573.pdf",
@@ -36345,7 +36438,10 @@
     "bce_enterprise_url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=1037668881",
     "bce_establishment_count": 0,
     "bce_direct_establishment_url": "https://kbopub.economie.fgov.be/kbopub/toonvestigingps.html?ondernemingsnummer=1037668881",
-    "bce_registered_office_address": "Rue Renkin 1 4800 Verviers"
+    "bce_registered_office_address": "Rue Renkin 1 4800 Verviers",
+    "lat": 50.5890761,
+    "lng": 5.8570131,
+    "geocoded_at": "2026-05-10"
   },
   {
     "file": "26329640.pdf",

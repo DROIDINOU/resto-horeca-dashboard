@@ -1,0 +1,51 @@
+[
+  {
+    "file": "26059389.pdf",
+    "vat": "BE1037338487",
+    "company_number": "1037338487",
+    "company_number_source": "manual",
+    "name": "Traiteur Stenven en Bram",
+    "subject": "OPRICHTING PARTIJEN: De heer Elaut Steven, wonende te Bovenstraat 12 9550 Herzele, geboren te Zottegem op 28/01/1990 (niet gehuwd ), hierna te noemen vennoot sub 1, En “ De heer Vandevyver Bram, wonende te Leenstraat 80 9890 Gavere, geboren te Gent op 11/05/1997 (niet gehuwd), hierna te noemen venno",
+    "extractor": "ocr",
+    "raw_text": "Mod DOE 18,01\nn\n’. * In de bijlagen bij het Belgisch Staatsblad bekend te maken kopie\nna neerlegging van de akte ter griffie\nl NEERLEGGING TER GRISEI\n) EV,\nÏ ONDERNEMINGSRECHTBANK ÊË»?TE\nE afdeling OUDENAARDE\naan het\nBelgisch Ä\nStaatsbiad “\"ml ! 27 APR 2026\n389*\nGriffie\nOndernemingsnr : A03%.>3> 8.4%}\nNaam\n(voit : Traiteur Steven en Bram\n(verkort : .\nRechtsvorm : Vof\nVoliedig adres v.d. zetel: Bovenstraat 12 - 9550 Herzele\nOnderwerp akte : OPRICHTING\nPARTIJEN:\nDe heer Elaut Steven, wonende te Bovenstraat 12 9550 Herzele, geboren te Zottegem op 28/01/1990 (niet\ngehuwd ), hierna te noemen vennoot sub 1,\nEn “\nDe heer Vandevyver Bram, wonende te Leenstraat 80 9890 Gavere, geboren te Gent op 11/05/1997 (niet\ngehuwd), hierna te noemen vennoot\nsub 2\ngezamenlijk verder te noemen: \"de vennoten\",\nZijn met het doel tussen hen een vennootschap onder firma op te richten overeengekomen wat volgt :\nArtikel 1: Naam en plaats van vestiging\nDe vennootschap is een vennootschap onder firma met de naam 'Traiteur Steven en Bram’\nArtikel 2: Doel\nHet doel van de vennootschap is het volgende :\nCateringdiensten aanbieden voor particulieren en bedrijven, evenals het verrichten van ondersteunende\nactiviteiten binnen de horeca, zowel zelfstandig als in onderaanneming (freelance).\nZij mag alle handeis-, industriële en financiële handelingen verrichten die rechtstreeks of onrechtstreeks\nverband houden met haar doel en die de ontwikkeling ervan kunnen bevorderen. Dit alles in de ruimste zin, met\ninbegrip van aanverwante activiteiten. Deze bepalingen zijn niet beperkend doch opsommend, zodat de\nvennootschap alle daden zaken stellen, behalve deze verboden door de wetgeving terzake. Daartoe kan de\nvennootschap samenwerken met, deeinemen in, of op gelijk welke wijze, rechtstreeks of onrechtstreeks,\nbelangen nemen in andere ondernemingen.\nDe vennootschap kan zowel tot waarborg van eigen verbintenissen als tot waarborg van verbintenissen van\nderden rechtspersoon ten aanzien van derden borg stellen, onder meer door haar goederen in hypotheek of in\npand te geven, inclusief de eigen handelszaal.\nDe vennootschap kan in het algemeen alle commerciële, industriële, roerende of onroerende handelingen\nverrichten in rechtstreeks of onrechtstreeks verband met haar maatschappelijk doel of welke van aard zouden\nzijn de verwezenlijking ervan geheel of ten dele te vergemakkelijken\nBijlagen bij het Belgisch Staatsblad - 08/05/2026 - Annexes du Moniteur belge\nArtikel 3: Maatschappelijke zetei\nDe vennootschappelijke zetel is gevestigd te Bovenstraat 12 - 9550 Herzele\nOp de laatste blz. van Luik B vermelden : Voorkant: Naam en hoedanigheid van de instrumenterende noteris, hetzij van de persofo)n(en}\ndevoegd de rechispersoon ten zanzien van derden te vertegenwoordigen\nAchterkant : Naam on handtekening {cit geldt niet voor akten van het type “Mededelingen\")",
+    "publication_date": "2026-05-08",
+    "moniteur_run_date": "2026-05-09",
+    "bce_status": "pending_manual",
+    "bce_nace_codes": [],
+    "bce_nace_horeca": false,
+    "bce_last_check": null,
+    "bce_source": "manual_enrichment",
+    "bce_confirmed_at": null,
+    "days_to_confirmation": null,
+    "horeca_score": 3,
+    "horeca_status": "strong_horeca_object",
+    "horeca_status_label": "HORECA fort — objet social",
+    "horeca_category": "Lead HORECA fort",
+    "is_horeca": true,
+    "horeca_hits": {
+      "name_hits": [
+        "traiteur"
+      ],
+      "excluded_name_hits": [],
+      "head_hits": [
+        "horeca"
+      ],
+      "full_object_hits": [
+        "horeca"
+      ],
+      "primary_match": "cateringdiensten",
+      "primary_pos": 55,
+      "primary_negative_match": null,
+      "related_hits": [],
+      "primary_negative_pos": null,
+      "objet_social_found": true,
+      "objet_social_source": "\\b(?:[2-9]|1[0-5])(?:\\s*(?:[\\.\\)]|[a-c][\\.\\)]?)\\s*){0,2}.{0,120}\\bdoel\\s+van\\s+de\\s+vennootschap\\b",
+      "objet_social_head": "2: Doel Het doel van de vennootschap is het volgende : Cateringdiensten aanbieden voor particulieren en bedrijven, evenals het verrichten van ondersteunende activiteiten binnen de horeca, zowel zelfstandig als in onderaanneming (freelance). Zij mag alle handeis-, industriële en financiële handelingen verrichten die rechtstreeks of onrechtstreeks verband houden met haar doel en die de ontwikkeling",
+      "objet_social_preview": "2: Doel Het doel van de vennootschap is het volgende : Cateringdiensten aanbieden voor particulieren en bedrijven, evenals het verrichten van ondersteunende activiteiten binnen de horeca, zowel zelfstandig als in onderaanneming (freelance). Zij mag alle handeis-, industriële en financiële handelingen verrichten die rechtstreeks of onrechtstreeks verband houden met haar doel en die de ontwikkeling",
+      "head_negative_hits": [],
+      "ratio": 1.0
+    },
+    "objet_social": "2: Doel Het doel van de vennootschap is het volgende : Cateringdiensten aanbieden voor particulieren en bedrijven, evenals het verrichten van ondersteunende activiteiten binnen de horeca, zowel zelfstandig als in onderaanneming (freelance). Zij mag alle handeis-, industriële en financiële handelingen verrichten die rechtstreeks of onrechtstreeks verband houden met haar doel en die de ontwikkeling",
+    "bce_registered_office_address": "Bovenstraat 12-9550 Herzele"
+  }
+]
