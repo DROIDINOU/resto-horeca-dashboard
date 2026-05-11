@@ -142,7 +142,6 @@ components.html(f"""
 
     <select name="frequency"
         style="width:100%; padding:12px; border-radius:8px; border:1px solid #ccc; font-size:16px; margin-bottom:12px;">
-        <option>À chaque nouveau rapport</option>
         <option>Quotidien</option>
         <option>Hebdomadaire</option>
         <option>Mensuel</option>
@@ -160,7 +159,7 @@ components.html(f"""
 
 st.markdown("""
 <div style="
-    margin: 45px 0;
+    margin: 30px 0;
     border-top: 2px solid rgba(37, 99, 235, 1);
 "></div>
 """, unsafe_allow_html=True)
