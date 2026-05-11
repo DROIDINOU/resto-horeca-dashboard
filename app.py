@@ -157,7 +157,7 @@ components.html(f"""
         📬 Demander l’accès aux rapports
     </button>
 </form>
-""", height=460)
+""", height=280)
 
 st.markdown("""
 <div style="
