@@ -165,7 +165,7 @@ components.html(f"""
         </button>
     </form>
 </div>
-""", height=430)
+""", height=560)
 st.markdown("""
 <div style="
     margin: 45px 0;
