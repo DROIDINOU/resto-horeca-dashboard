@@ -3,6 +3,7 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 import folium
+import streamlit.components.v1 as components
 from streamlit_folium import st_folium
 
 BASE_DIR = Path(__file__).resolve().parent
@@ -134,26 +135,29 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-email = st.text_input("Adresse email", key="subscription_email")
+components.html(f"""
+<form action="{FORM_ENDPOINT}" method="POST" target="_blank">
+    <input type="email" name="email" placeholder="Votre email" required
+        style="width:100%; padding:12px; border-radius:8px; border:1px solid #ccc; font-size:16px; margin-bottom:12px;">
 
-frequency = st.selectbox(
-    "Fréquence d’envoi",
-    ["À chaque nouveau rapport", "Quotidien", "Hebdomadaire", "Mensuel"],
-    key="subscription_frequency"
-)
+    <select name="frequency"
+        style="width:100%; padding:12px; border-radius:8px; border:1px solid #ccc; font-size:16px; margin-bottom:12px;">
+        <option>À chaque nouveau rapport</option>
+        <option>Quotidien</option>
+        <option>Hebdomadaire</option>
+        <option>Mensuel</option>
+    </select>
 
-interests = st.multiselect(
-    "Types de sociétés suivies",
-    ["Pharmacie", "HORECA", "Autres activités"],
-    default=["Pharmacie", "HORECA"],
-    key="subscription_interests"
-)
+    <label><input type="checkbox" name="interests" value="Pharmacie" checked> Pharmacie</label><br>
+    <label><input type="checkbox" name="interests" value="HORECA" checked> HORECA</label><br>
+    <label><input type="checkbox" name="interests" value="Autres activités"> Autres activités</label><br><br>
 
-if st.button("📬 Demander l’accès aux rapports", key="subscription_button"):
-    if not email:
-        st.error("Veuillez indiquer une adresse email.")
-    else:
-        st.success(f"Demande enregistrée pour {email} — fréquence : {frequency}.")
+    <button type="submit"
+        style="width:100%; background:#16a34a; color:white; border:none; padding:14px; border-radius:10px; font-size:16px; font-weight:bold;">
+        📬 Demander l’accès aux rapports
+    </button>
+</form>
+""", height=460)
 
 st.markdown("""
 <div style="
