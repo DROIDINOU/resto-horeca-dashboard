@@ -151,7 +151,7 @@ components.html(f"""
     <label><input type="checkbox" name="interests" value="HORECA" checked> HORECA</label><br>
 
     <button type="submit"
-        style="width:100%; background:#16a34a; color:white; border:none; padding:14px; border-radius:10px; font-size:16px; font-weight:bold;">
+        style="width:100%; background:#16a34a; color:white; margin-top:16px; border:none; padding:14px; border-radius:10px; font-size:16px; font-weight:bold;">
         📬 Demander l’accès aux rapports
     </button>
 </form>
