@@ -9,6 +9,8 @@ BASE_DIR = Path(__file__).resolve().parent
 JSON_PATH = BASE_DIR / "public" / "all_leads_geocoded.json"
 REPORTS_DIR = BASE_DIR / "exports"
 
+FORM_ENDPOINT = "https://formspree.io/f/TON_ID"
+
 st.set_page_config(
     page_title="Détection précoce de nouvelles sociétés",
     layout="wide"
@@ -31,6 +33,7 @@ def score(value):
 
 mtime = get_file_mtime(JSON_PATH)
 df = load_data(JSON_PATH, mtime)
+
 st.markdown("""
 <div style="
     padding:22px;
@@ -117,42 +120,98 @@ else:
                 key=f"download_{pdf_path.name}"
             )
 
-st.markdown("""
+st.markdown(f"""
 <div style="
     border: 2px solid #16a34a;
     background: #f0fdf4;
     border-radius: 12px;
-    padding: 18px;
+    padding: 22px;
     margin-top: 28px;
     margin-bottom: 20px;
 ">
     <h3 style="margin:0; color:#166534;">📬 Recevoir les rapports complets par email</h3>
-    <p style="margin:8px 0 0 0; color:#166534;">
+
+    <p style="margin:8px 0 18px 0; color:#166534;">
         Recevez automatiquement les nouvelles détections issues des annexes du Moniteur belge.
     </p>
+
+    <form action="{FORM_ENDPOINT}" method="POST">
+
+        <label style="font-weight:bold; color:#166534;">Adresse email</label>
+        <input
+            type="email"
+            name="email"
+            placeholder="votre@email.com"
+            required
+            style="
+                width:100%;
+                padding:12px;
+                margin-top:6px;
+                margin-bottom:14px;
+                border-radius:8px;
+                border:1px solid #bbb;
+                font-size:16px;
+            "
+        >
+
+        <label style="font-weight:bold; color:#166534;">Fréquence d’envoi</label>
+        <select
+            name="frequency"
+            style="
+                width:100%;
+                padding:12px;
+                margin-top:6px;
+                margin-bottom:14px;
+                border-radius:8px;
+                border:1px solid #bbb;
+                font-size:16px;
+            "
+        >
+            <option>À chaque nouveau rapport</option>
+            <option>Quotidien</option>
+            <option>Hebdomadaire</option>
+            <option>Mensuel</option>
+        </select>
+
+        <label style="font-weight:bold; color:#166534;">Types de sociétés suivies</label>
+
+        <div style="margin-top:8px; margin-bottom:16px; color:#166534;">
+            <label>
+                <input type="checkbox" name="interests" value="Pharmacie" checked>
+                Pharmacie
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="interests" value="HORECA" checked>
+                HORECA
+            </label><br>
+
+            <label>
+                <input type="checkbox" name="interests" value="Autres activités">
+                Autres activités
+            </label>
+        </div>
+
+        <button
+            type="submit"
+            style="
+                width:100%;
+                background:#16a34a;
+                color:white;
+                border:none;
+                padding:14px;
+                border-radius:10px;
+                font-size:16px;
+                font-weight:bold;
+                cursor:pointer;
+            "
+        >
+            📬 Demander l’accès aux rapports
+        </button>
+
+    </form>
 </div>
 """, unsafe_allow_html=True)
-
-email = st.text_input("Adresse email", key="subscription_email")
-
-frequency = st.selectbox(
-    "Fréquence d’envoi",
-    ["À chaque nouveau rapport", "Quotidien", "Hebdomadaire", "Mensuel"],
-    key="subscription_frequency"
-)
-
-interests = st.multiselect(
-    "Types de sociétés suivies",
-    ["Pharmacie", "HORECA", "Autres activités"],
-    default=["Pharmacie", "HORECA"],
-    key="subscription_interests"
-)
-
-if st.button("📬 Demander l’accès aux rapports", key="subscription_button"):
-    if not email:
-        st.error("Veuillez indiquer une adresse email.")
-    else:
-        st.success(f"Demande enregistrée pour {email} — fréquence : {frequency}.")
 
 st.markdown("""
 <div style="
