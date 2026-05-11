@@ -150,7 +150,6 @@ components.html(f"""
 
     <label><input type="checkbox" name="interests" value="Pharmacie" checked> Pharmacie</label><br>
     <label><input type="checkbox" name="interests" value="HORECA" checked> HORECA</label><br>
-    <label><input type="checkbox" name="interests" value="Autres activités"> Autres activités</label><br><br>
 
     <button type="submit"
         style="width:100%; background:#16a34a; color:white; border:none; padding:14px; border-radius:10px; font-size:16px; font-weight:bold;">
@@ -161,7 +160,7 @@ components.html(f"""
 
 st.markdown("""
 <div style="
-    margin: 45px 0;
+    margin: 20px 0;
     border-top: 2px solid rgba(37, 99, 235, 1);
 "></div>
 """, unsafe_allow_html=True)
