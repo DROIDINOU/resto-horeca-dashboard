@@ -160,7 +160,7 @@ components.html(f"""
 
 st.markdown("""
 <div style="
-    margin: 20px 0;
+    margin: 45px 0;
     border-top: 2px solid rgba(37, 99, 235, 1);
 "></div>
 """, unsafe_allow_html=True)
